@@ -1,12 +1,12 @@
-![logo](_media/logo.png)
+![logo](_media/logo02.png)
 
-# 小傅哥
+# 赵政17
 
-## 教程序员快速搭建博客
+## 基于Docsify和GitHub搭建的一个极简博客
 
-- 本仓库以基于 docsify 构建的所见即所得博客，程序员👨🏻‍💻伙伴可以通过克隆仓库，配置基础的信息就可以拥有一个这样的博客了！
+- 不定时更新一些文章，主要记录开发过程遇到问题，解决问题的过程，对某些技术点的原理分析和实践和高频面试题的分析与总结。
     
-[![stars](https://badgen.net/github/stars/fuzhengwei/fuzhengwei.github.io?icon=github&color=4ab8a1)](https://github.com/fuzhengwei/fuzhengwei.github.io) [![forks](https://badgen.net/github/forks/fuzhengwei/fuzhengwei.github.io?icon=github&color=4ab8a1)](https://github.com/fuzhengwei/fuzhengwei.github.io) 
+ 
+本站总访问量<span id="busuanzi_value_site_pv"></span>人次
 
-[GitHub](<https://github.com/fuzhengwei/fuzhengwei.github.io>)
-[开始阅读](README.md)
+ [开始阅读](README.md)
