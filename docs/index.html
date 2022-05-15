@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>CodeGuide | 程序员编码指南</title>
+  <title>赵政17的博客</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -22,16 +22,16 @@
 <div id="app"></div>
 <script>
     var gitalkConfig = {
-      clientID: '4a657aa4ae6c0f1862a1',
-      clientSecret: '94793d5bac0c884a8798ea941f7c5bc9fb004720',
-      repo: 'fuzhengwei.github.io',
-      owner: 'fuzhengwei',
-      admin: ["fuzhengwei"],
+      clientID: '58df2bec9d08287ef21c',
+      clientSecret: '74b5195850bd92e44f1b99d423ebbab440adc837',
+      repo: 'zhaozheng17.github.io',
+      owner: 'zhaozheng17',
+      admin: ["zhaozheng17"],
       distractionFreeMode: false
     };
     window.$docsify = {
-      name: '小傅哥',
-      repo: 'https://github.com/fuzhengwei/fuzhengwei.github.io',
+      name: 'zhaozheng17',
+      repo: 'https://github.com/zhaozheng17/zhaozheng17.github.io',
       auto2top: true,
       coverpage: true,
       loadSidebar: true,
@@ -47,6 +47,12 @@
         previousText: 'PREVIOUS',
         nextText: 'NEXT',
         crossChapter: true
+      },
+      count:{
+        countable:true,
+        fontsize:'0.9em',
+        color:'rgb(90,90,90)',
+        language:'chinese'
       },
       plugins: [
         function (hook, vm) {
@@ -79,12 +85,23 @@
   </script>
 
 <script src="/assets/js/md5.js"></script>
+  <!-- docsify的js依赖 -->
 <script src="/assets/js/docsify.min.js"></script>
+  <!-- 评论插件gitalk的js依赖 -->
 <script src="/assets/js/gitalk.min.js"></script>
+  <!-- 搜索功能的js依赖 -->
 <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
+  <!--分页的js依赖-->
 <script src="/assets/js/docsify-pagination.min.js"></script>
+  <!-- 图片缩放功能的js依赖 -->
 <script src="/assets/js/zoom-image.js"></script>
+  <!-- bash代码语法高亮的js依赖 -->
 <script src="/assets/js/prism-bash.js"></script>
+  <!-- java代码语法高亮的js依赖 -->
 <script src="/assets/js/prism-java.min.js"></script>
+  <!--字数统计的js依赖-->
+  <script src="/assets/js/Countable.js"></script>
+  <!--不蒜子访问统计的js依赖-->
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 </body>
 </html>
