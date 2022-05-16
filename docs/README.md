@@ -81,9 +81,4 @@ IDEA 插件开发可以帮助研发人员提升能效，解决一些实际场景
     
     <img src="https://bugstack.cn/images/personal/fustack.png" width="180" height="180"/>
 
-- **公众号(bugstack虫洞栈)**
-
-    沉淀、分享、成长，专注于原创专题案例，以最易学习编程的方式分享知识，让自己和他人都能有所收获。目前已完成的专题有；Netty4.x实战专题案例、用Java实现JVM、基于JavaAgent的全链路监控、手写RPC框架、DDD专题案例、源码分析等。
-    
-    <img src="https://bugstack.cn/images/personal/qrcode.png" width="180" height="180"/>
 
