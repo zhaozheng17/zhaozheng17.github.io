@@ -21,6 +21,7 @@
 <body>
 <div id="app"></div>
 <script>
+  //评论功能选项
     var gitalkConfig = {
       clientID: '58df2bec9d08287ef21c',
       clientSecret: '74b5195850bd92e44f1b99d423ebbab440adc837',
@@ -29,27 +30,31 @@
       admin: ["zhaozheng17"],
       distractionFreeMode: false
     };
+    //docsify功能选项
     window.$docsify = {
-      name: 'zhaozheng17',
-      repo: 'https://github.com/zhaozheng17/zhaozheng17.github.io',
-      auto2top: true,
-      coverpage: true,
-      loadSidebar: true,
+      name: 'zhaozheng17',    //博客的title
+      repo: 'https://github.com/zhaozheng17/zhaozheng17.github.io',   //博客页面右上角的小猫头的链接地址
+      auto2top: true,         //自动开启两级目录展开
+      coverpage: true,      //开启首页封面
+      loadSidebar: true,    //加载侧边导航栏
       loadNavbar: true,     //增加右上角导航栏
-      maxLevel: 4,
+      maxLevel: 4,          //最大支持四级标题展开
       subMaxLevel: 2,
+      //文章字数统计功能
       count:{
         countable:true,
         fontsize:'0.9em',
         color:'rgb(90,90,90)',
         language:'chinese'
       },
+      //全文搜索功能
       search: {
         paths: 'auto',
         placeholder: '🔍 Type to search ',
         noData: '😞 No Results! ',
         depth: 6
       },
+      //分页功能
       pagination: {
         previousText: 'PREVIOUS',
         nextText: 'NEXT',
