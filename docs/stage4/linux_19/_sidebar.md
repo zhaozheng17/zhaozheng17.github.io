@@ -1,0 +1,2 @@
+- [首页](/README)
+    - [ubuntu20.04首次安装并修改mysql登录密码.md](/stage4/linux_19/ubuntu20.04首次安装并修改mysql登录密码.md)
